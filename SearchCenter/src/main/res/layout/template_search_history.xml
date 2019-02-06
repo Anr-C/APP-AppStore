@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mSearchHistoryItem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/md_white_1000"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="5dp"
+    android:text="QQ空间">
+
+</TextView>

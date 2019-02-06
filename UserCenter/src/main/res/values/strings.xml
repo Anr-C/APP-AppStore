@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UserCenter</string>
+
+    <string name="mobi">手机号</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+
+    <string name="default_loading">loading</string>
+</resources>

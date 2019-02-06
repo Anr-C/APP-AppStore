@@ -1,0 +1,1 @@
+include ':App', ':BaseLib', ':Provider', ':UserCenter', ':AppCenter', ':PageCenter', ':SearchCenter'

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/md_white_1000"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/mLayoutHotApp"
+        style="@style/Text_Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="5dp"
+        android:drawableTop="@mipmap/icon_app"
+        android:gravity="center_horizontal"
+        android:text="@string/hot_app" />
+
+    <TextView
+        android:id="@+id/mLayoutHotGame"
+        style="@style/Text_Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="5dp"
+        android:drawableTop="@mipmap/icon_game"
+        android:gravity="center_horizontal"
+        android:text="@string/hot_game" />
+
+    <TextView
+        android:id="@+id/mLayoutHotSubject"
+        style="@style/Text_Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="5dp"
+        android:drawableTop="@mipmap/icon_top"
+        android:gravity="center_horizontal"
+        android:text="@string/hot_top" />
+
+</LinearLayout>

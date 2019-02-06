@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppCenter</string>
+
+    <string name="download_manager">应用管理</string>
+
+    <string name="app_status">V%1$s %2$s %3$s</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SearchCenter</string>
+
+    <string name="search_hint">请输入搜索关键词</string>
+
+</resources>

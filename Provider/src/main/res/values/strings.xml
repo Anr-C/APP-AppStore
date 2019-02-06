@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Provider</string>
+    <string name="download">下载</string>
+
+    <string name="key_auto_check_apk_update">key_auto_check_apk_update</string>
+    <string name="key_smart_install">key_smart_install</string>
+    <string name="key_auto_delete_apk">key_auto_delete_apk</string>
+    <string name="key_root_install">key_root_install</string>
+    <string name="key_clear_cache">key_clear_cache</string>
+    <string name="key_apk_download_dir">key_apk_download_dir</string>
+    <string name="key_about_me">key_about_me</string>
+</resources>

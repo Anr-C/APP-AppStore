@@ -1,0 +1,99 @@
+apply plugin: 'com.android.library'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //Android
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    api "com.android.support:appcompat-v7:${android_lib}"
+    api "com.android.support:design:${android_lib}"
+//    api "com.android.support:support-v4:${android_lib}"
+    api "com.google.code.findbugs:jsr305:3.0.2"
+
+    // Anko Commons
+    api "org.jetbrains.anko:anko-commons:$anko_version"
+    // Support-v4 (only Anko Commons)
+    api "org.jetbrains.anko:anko-support-v4-commons:$anko_version"
+
+    //arouter
+    api "com.alibaba:arouter-api:1.3.1"
+
+    //rxjava
+    api "io.reactivex.rxjava2:rxandroid:2.1.0"
+    api "io.reactivex.rxjava2:rxjava:2.1.0"
+
+    //retrofit2
+    api "com.squareup.retrofit2:retrofit:2.5.0"
+    api "com.squareup.retrofit2:converter-gson:2.4.0"
+    //for rxjava
+    api "com.squareup.retrofit2:adapter-rxjava2:2.4.0"
+
+    //okhttp3
+    api "com.squareup.okhttp3:okhttp:3.12.0"
+    api "com.squareup.okhttp3:logging-interceptor:3.11.0"
+
+    //dagger
+    api "com.google.dagger:dagger:$dagger"
+    kapt "com.google.dagger:dagger-compiler:$dagger"
+
+    //字体图标库
+    api "com.mikepenz:iconics-core:3.0.3@aar"
+    api 'com.mikepenz:ionicons-typeface:2.0.1.4@aar'
+
+    //glide
+    api 'com.github.bumptech.glide:glide:4.8.0'
+    kapt 'com.github.bumptech.glide:compiler:4.8.0'
+
+    //图片转换库
+    api 'jp.wasabeef:glide-transformations:3.3.0'
+
+    //path
+    api 'com.eftimoff:android-pathview:1.0.8@aar'
+
+    //弹框
+    api 'com.github.thomper:sweet-alert-dialog:v1.4.0'
+
+    //权限
+    api 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
+
+    //recycleView
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.35'
+
+    //rxbus
+    api 'com.hwangjr.rxbus:rxbus:2.0.0'
+
+    //伸缩文本
+    api 'com.ms-square:expandableTextView:0.1.4'
+
+    //自定义的behavior 配合CoordinatorLayout
+    api 'com.zoonref:simple-view-behavior:1.0'
+
+    //下载模块
+    api 'zlc.season:rxdownload3:1.2.2'
+
+}

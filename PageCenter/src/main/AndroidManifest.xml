@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lckiss.pagecenter" >
+    <application>
+        <activity android:name=".ui.activity.CategoryAppActivity"/>
+        <activity android:name=".ui.activity.AppDetailActivity"/>
+        <activity android:name=".ui.activity.HotAppActivity"/>
+        <activity android:name=".ui.activity.SubjectActivity"/>
+    </application>
+</manifest>

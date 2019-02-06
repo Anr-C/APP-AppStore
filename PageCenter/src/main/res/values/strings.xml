@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PageCenter</string>
+
+    <string name="hot_game">热门游戏</string>
+    <string name="hot_top">热门主题</string>
+    <string name="hot_app">热门应用</string>
+
+</resources>

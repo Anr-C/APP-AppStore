@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">应用商店</string>
+
+    <string name="guide_1">全新改版</string>
+    <string name="guide_2">视频购物</string>
+    <string name="guide_3">评价晒图</string>
+
+
+    <string name="app_uninstall">应用卸载</string>
+    <string name="download_manager">应用管理</string>
+    <string name="apps_update">应用更新</string>
+    <string name="sys_setting">系统设置</string>
+    <string name="logining">正在登陆…</string>
+    <string name="logout">退出登录</string>
+
+    <string name="menu_download">下载</string>
+    <string name="menu_search">搜索</string>
+
+    <string name="toggle_open">打开</string>
+    <string name="toggle_close">关闭</string>
+
+
+</resources>
